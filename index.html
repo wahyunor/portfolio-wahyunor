@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wahyu Nor Romadon - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Intern</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Bachelor of Mathematics Education</p>
+                <H1>Hi, I'm <span>Wahyu</span><br>Nor Romadon From Pasuruan</H1>
+            </div>
+        </div>
+    </div>
+<!-----About------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a graduate of bachelor mathematics education. I have expertise in teaching math, numeracy, programming, logistics, and several other fields. Not only experience in teaching mathematics, I also have other experiences such as machine learning, programming and in Ministry of Social Affairs Republic Indonesia. I will become a lifelong learner who will always learn and develop new skills in the future</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Data Science</span><br>Machine Learning</li>
+                            <li><span>Mathematics</span><br>Teacher in Mathemathic School Study</li>
+                            <li><span>Logistic</span><br>Supply Chain Logistic</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 </span><br>Mathematics Teacher Assistant - SMP Negeri 1 Grati</li>
+                            <li><span>2022</span><br>Machine Learning Internship Program - PT Zenius Education</li>
+                            <li><span>2021</span><br>Pejuang Muda Internship Program - Kementrian Sosial Republik Indonesia</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019 - 2023</span><br>STKIP Al Hikmah Surabaya - Mathematics Education Department</li>
+                            <li><span>2016 - 2019</span><br>SMA Negeri 1 Grati - Science</li>
+                            <li><span>2013 - 2016</span><br>SMP Negeri 1 Grati</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!---Services-->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Internship</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Machine Learning</h2>
+                <p>internship in Pt Zenius Education with activities : Study data science especially machine learning using jupyter notebook, Learn excel data processing and programming languages such as python and MySql, Solve various problems with the team by using machine learning in the corporate</p>
+                <a href="https://www.linkedin.com/in/wahyunorromadon">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-school"></i>
+                <h2>Mathematics Teacher Assistant</h2>
+                <p>internship in SMPW with activities : Assist math teachers in preparing learning materials and correcting assignments, Explaining the subject matter to students who have diculty understanding it, Provide guidance to students in working on math problems.</p>
+                <a href="https://www.linkedin.com/in/wahyunorromadon">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-users"></i>
+                <h2>Pejuang Muda</h2>
+                <p>internship in Kementrian Sosial RI with activities : Actively involved in helping social and humanitarian activities organized by the Ministry of Social Aairs of the Republic of Indonesia, Work together as a team in identifying social problems in the surrounding area and planning and implementing social work programs aimed at solving these problems</p>
+                <a href="https://www.linkedin.com/in/wahyunorromadon">Learn more</a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!---Portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media Content Planner</h3>
+                    <p>These are the tools I use to manage my posts on social media. Good for daily, weekly, monthly and yearly use. I use google sheets so that it can be used anytime, anywhere and on any device.</p>
+                    <a href="https://docs.google.com/spreadsheets/d/1HOg0vdbMDNbep2mrM1OOEyVQMrpSVU9EEshTtS16IEA/edit?usp=sharing"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-7.jpg">
+                <div class="layer">
+                    <h3>Machine Learning</h3>
+                    <p>Making car prediction data analysis using a programming language. This project was made by a team of two people from different universities</p>
+                    <a href="https://github.com/wahyunor/Machine-Learning-Project"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-8.png">
+                <div class="layer">
+                    <h3>Blog Website</h3>
+                    <p>the semestabelajar blog is website for learning students. This blog discusses learning, motivation for students, and productivity. I created this individually using the blogspot platform.</p>
+                    <a href="https://www.semestabelajar.com/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://www.linkedin.com/in/wahyunorromadon" class="btn">See more</a>
+    </div>
+    <div class="container">
+        <h1 class="sub-title">My Certificates & Training</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-4.png">
+                <div class="layer">
+                    <h3>Supply Chain Logistic</h3>
+                    <p>These are the tools I use to manage my posts on social media. Good for daily, weekly, monthly and yearly use. I use google sheets so that it can be used anytime, anywhere and on any device.</p>
+                    <a href=https://www.linkedin.com/posts/wahyunorromadon_completion-certificate-for-supply-chain-logistics-activity-7061217618019418112-w6RJ?utm_source=share&utm_medium=member_desktop><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-5.png">
+                <div class="layer">
+                    <h3>Machine Learning</h3>
+                    <p>I studied machine learning at PT Zenius Education for 5 months by learning about data science</p>
+                    <a href="https://www.linkedin.com/posts/wahyunorromadon_sertifikat-machine-learning-intern-zenius-activity-7061223620890537985-ppMu/?utm_source=share&utm_medium=member_desktop"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-6.png">
+                <div class="layer">
+                    <h3>Applied Accounting for Companies</h3>
+                    <p>Studying Accounting in a company</p>
+                    <a href="https://www.linkedin.com/posts/wahyunorromadon_sertifikat-pelatihan-akuntasi-wahyu-nor-romadon-activity-7061228906439196672-nKOs?utm_source=share&utm_medium=member_desktop"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://www.linkedin.com/in/wahyunorromadon" class="btn">See more</a>
+    </div>
+</div>
+<!--Contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>wbedodo@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 085852568177</p>
+                <p><i class="fa-solid fa-location-dot"></i>Jl. Sayyid Arif, Segoropuro Village, Rejoso, Pasuruan Regency, East Java, 67181</p>
+                <div class="social-icons">
+                    <a href="https://web.facebook.com/wahyu.brayzz/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/wahyunorromadon/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/wahyunorromadon"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.twitter.com/wahyunorromadon"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.github.com/wahyunor"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2023. Made with <i class="fa-solid fa-heart"></i> by Wahyu Nor Romadon.  All right reserved</p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz94c1a1o8zfX7tNnIIukqsq8jDaxIUM3hPwM4npDlCBxzyBwg755kixxaXsYcuN4u5/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent succesfully through my spreadsheet"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
